@@ -20,6 +20,7 @@ while True:
         if connected_ipp == IP_DEVICE:
             print("device is connected")
             webbrowser.open_new_tab("www.gmail.com")
+            webbrowser.open_new_tab("www.linkedin.com")
             subprocess.call("D:\\Program Files (x86)\\Steam\\steam.exe")
             toaster = ToastNotifier()
             toaster.show_toast("Alert", "Shakti's iPhone Connected!", duration=200)
