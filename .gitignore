@@ -1,0 +1,5 @@
+*.txt
+*.mp3
+*.wav
+/.vscode
+#/__pycache__
